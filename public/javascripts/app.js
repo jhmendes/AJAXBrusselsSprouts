@@ -7,6 +7,6 @@ $('#get-dish').on('click', (event) => {
   });
 
     request.done((data) => {
-      alert(data['dish']);
+      alert("Your random dish is " + data['dish']);
     });
 });
